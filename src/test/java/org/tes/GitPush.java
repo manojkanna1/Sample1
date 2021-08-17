@@ -14,5 +14,8 @@ public static void main(String[] args) {
 	driver.get("https://en-gb.facebook.com/");
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+	driver.getTitle();
+	driver.quit();
+
 }
 }
